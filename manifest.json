@@ -1,0 +1,25 @@
+{
+  "name": "TabsToLinks",
+  "short_name": "TabsToLinks",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "author": "Bartlomiej Krztuk",
+  "description": "Export tabs as links with ease",
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_title": "TabsToLinks",
+    "default_icon": "assets/icons/icon48.png",
+    "default_popup": "popup.html"
+  }
+}
