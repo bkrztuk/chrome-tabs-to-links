@@ -1,11 +1,20 @@
 <html>
- <head>
-  
- </head>
- <body>
- 	<ul id="tabslist">
-
- 	</ul>
- 	<script src="popup.js"></script>
- </body>
+    <head>
+        <link href="tabs2links.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav>
+        	<div class="tabs__actions">
+        		<label>Output format</label>
+        		<select id="formatSelect" class="md-select">
+        			<option value="text" selected>Text</option>
+        			<option value="markdown">Markdown</option>
+        			<option value="html">HTML</option>
+        		</select>
+        		<button id="exportLinks">Copy to Clipboard</button>
+        	</div>
+        </nav>
+        <ul id="tabslist"></ul>
+        <script src="popup.js"></script>
+    </body>
 </html>

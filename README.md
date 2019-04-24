@@ -1,16 +1,16 @@
-## Tabs to Links
+## Tabs to Links - Make a list of links from your open tabs in Chrome, right away
 
-Make lists of open tabs - Chrome Utility for Creating Link Lists
 
-Please use keyboard shortcut `CTRL/CMD + SHIFT + E` to copy tabs URL to clipboard. 
+Make lists of open tabs - Chrome Utility for Creating Link Lists.
 
-### Built-in formats
-
+Tabs to Links allows to quickly copy opened tabs to clipboard with various formats and use it in your workflow:
 - Markdown
 - HTML `<ul>` list
 - Text
 
-Just run keyboard shortcut from any tab and easily copy to clipboard your current tabs stack.
+
+
+
 
 
 
